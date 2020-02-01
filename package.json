@@ -1,0 +1,22 @@
+{
+    "name": "webscrappinggithub",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "server.js",
+        "start:dev": "nodemon server.js"
+    },
+    "engines": {
+        "node": "12.13.0"
+    },
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "puppeteer": "^2.1.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
